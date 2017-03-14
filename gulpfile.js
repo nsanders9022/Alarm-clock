@@ -19,6 +19,7 @@ var lib = require('bower-files')({
   }
 });
 var browserSync = require('browser-sync').create();
+var moment = require('moment');
 
 
 gulp.task('jshint', function(){
