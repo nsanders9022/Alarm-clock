@@ -16,9 +16,9 @@ $(document).ready(function(){
   setInterval(function() {
     if (moment().format('H:mm') === $('input#inputtedTime').val())
     {
-      $('.display-time').text('Mr. Grinch is in town!');
+      $('.display-time').show();
     } else {
-      $('.display-time').text('Mr. Grinch got arrested.');
+      $('.display-time').hide();
     }
   }, 1000)
 });
